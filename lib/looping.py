@@ -7,9 +7,12 @@ def happy_new_year():
         i -= 1
     print('Happy New Year!')
 
+happy_new_year()
+
 
 def square_integers(int_list):
     return [i ** 2 for i in int_list]
+
 
 def fizzbuzz():
      for i in range(1, 101):
@@ -21,3 +24,5 @@ def fizzbuzz():
             print("Fizz")
         else:
             print(i)
+
+fizzbuzz()
